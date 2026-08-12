@@ -1,15 +1,15 @@
 /* ================= VARIABLES ================= */
 :root {
-  --color-bg: #f4f6fb;
-  --color-surface: #ffffff;
-  --color-primary: #4f46e5;
-  --color-primary-dark: #3730a3;
-  --color-secondary: #06b6d4;
-  --color-text: #1f2937;
+  --color-bg: #f09acb;
+  --color-surface: #f38a8a;
+  --color-primary: #94ebeb;
+  --color-primary-dark: #96e1e4;
+  --color-secondary: #a7effc;
+  --color-text: #384e6d;
   --color-text-light: #6b7280;
   --color-border: #e5e7eb;
-  --color-danger: #ef4444;
-  --color-success: #10b981;
+  --color-danger: #f3afaf;
+  --color-success: #81ebc8;
   --radius: 12px;
   --shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   --transition: 0.2s ease;
