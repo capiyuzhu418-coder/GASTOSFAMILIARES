@@ -7,7 +7,12 @@
 // 4. Copia "anon public key" y pégalo en SUPABASE_ANON_KEY
 // =========================================================
 
-const SUPABASE_URL = "PEGA_AQUI_TU_PROJECT_URL";
-const SUPABASE_ANON_KEY = "PEGA_AQUI_TU_ANON_KEY";
 
-const supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+(function () {
+  const SUPABASE_URL = "https://isqkksyfsxceautsjaey.supabase.co";
+  const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlzcWtrc3lmc3hjZWF1dHNqYWV5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODU1MjQwNTAsImV4cCI6MjEwMTEwMDA1MH0.urESWRbbeDHbIUFmhUEAFp3EAb-DMhzW0U7P6Rx4gNs";
+    
+  window.supabase = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+})();
+
+
